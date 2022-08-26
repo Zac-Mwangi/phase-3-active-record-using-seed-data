@@ -17,7 +17,7 @@ puts "Seeding games..."
     title: Faker::Game.title,
     genre: Faker::Game.genre,
     platform: Faker::Game.platform,
-    price: rand(0..60) # random number between 0 and 60
+    price: rand(0..60) # random number between 0 and 60 
   )
 end
 
